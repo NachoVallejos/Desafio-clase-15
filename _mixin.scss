@@ -1,0 +1,10 @@
+@mixin  parrafos {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 1rem;
+text-align: center;
+    
+}
+
+.parrafoConEstilo {
+    @include parrafos;
+}

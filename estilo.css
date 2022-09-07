@@ -1,0 +1,52 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DynaPuff&family=Silkscreen&family=Ultra&display=swap");
+/* Maps */
+.facebook {
+  color: blue; }
+
+.instagram {
+  color: pink; }
+
+.twitter {
+  color: green; }
+
+header {
+  background-color: #6A8C61;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  header h1 {
+    color: #FFFAFA;
+    font-family: 'DynaPuff', cursive;
+    margin-left: 4rem; }
+  header nav li {
+    display: inline-block; }
+    header nav li a {
+      text-decoration: none;
+      color: #FFFAFA;
+      font-family: 'DynaPuff', cursive;
+      margin-right: 4rem; }
+
+body {
+  background-color: #A67E33; }
+
+section {
+  font-family: 'DynaPuff', cursive;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  section .titulo {
+    border: #6A8C61 2px solid;
+    background-color: #6A8C61; }
+
+footer {
+  border: #6A8C61 4px solid;
+  background-color: #6A8C61;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'DynaPuff', cursive;
+  font-size: 4rem;
+  padding: 2rem; }

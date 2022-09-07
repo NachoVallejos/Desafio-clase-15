@@ -1,0 +1,10 @@
+.titulo {
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+text-align: center;
+}
+
+.lorem {
+    font-size: 45px;
+    @extend .titulo;
+}
